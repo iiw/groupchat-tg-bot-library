@@ -4,16 +4,32 @@ build-backend = "hatchling.build"
 
 [project]
 name = "groupchat-tg-bot"
-version = "0.1.0"
+version = "0.0.1"
 description = "A small library for Telegram group-chat AI bots (OpenAI-compatible LLMs), extended with modules"
 readme = "README.md"
 license = "AGPL-3.0-or-later"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
+keywords = ["telegram", "bot", "llm", "ai", "chatbot", "mistral", "openai", "group-chat"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
 dependencies = [
     "python-telegram-bot>=21.6",
     "openai>=1.40",
 ]
+
+[project.urls]
+Homepage = "https://github.com/iiw/groupchat-tg-bot-library"
+Repository = "https://github.com/iiw/groupchat-tg-bot-library"
+Issues = "https://github.com/iiw/groupchat-tg-bot-library/issues"
 
 [project.optional-dependencies]
 vision = ["Pillow>=10.0"]

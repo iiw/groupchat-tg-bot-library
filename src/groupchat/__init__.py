@@ -27,4 +27,4 @@ __all__ = [
     "Bot", "Module", "Context", "command", "tool",
     "ChatHistory", "Entry", "Command", "Tool", "Store", "LLMError",
 ]
-__version__ = "0.1.0"
+__version__ = "0.0.1"

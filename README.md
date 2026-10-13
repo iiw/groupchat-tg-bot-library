@@ -15,7 +15,7 @@ That's a working bot: in groups it answers when @mentioned, replied to, or calle
 ## Install
 
 ```bash
-pip install -e "path/to/groupchat-tg-bot[vision]"
+pip install "groupchat-tg-bot[vision]"
 ```
 
 Python 3.10+. Dependencies: `python-telegram-bot`, `openai`; `Pillow` is optional (extra `vision`, downscales images before sending them).
@@ -79,7 +79,7 @@ async def add(a: int, b: int) -> int:
     return a + b
 ```
 
-More in [examples/](examples/).
+More in [examples/](https://github.com/iiw/groupchat-tg-bot-library/blob/main/examples/).
 
 ## Context
 
@@ -152,4 +152,4 @@ The tests run the real handlers on synthetic Telegram updates with a fake Telegr
 
 ## License
 
-[GNU AGPL-3.0](LICENSE), inherited from Le Chonk, which this library is derived from.
+[GNU AGPL-3.0](https://github.com/iiw/groupchat-tg-bot-library/blob/main/LICENSE), inherited from Le Chonk, which this library is derived from.
