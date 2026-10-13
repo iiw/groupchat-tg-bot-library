@@ -152,4 +152,4 @@ The tests run the real handlers on synthetic Telegram updates with a fake Telegr
 
 ## License
 
-[GNU AGPL-3.0](https://github.com/iiw/groupchat-tg-bot-library/blob/main/LICENSE), inherited from Le Chonk, which this library is derived from.
+[MIT](https://github.com/iiw/groupchat-tg-bot-library/blob/main/LICENSE).
